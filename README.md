@@ -9,7 +9,7 @@
   * [Credits](#credits)
   ### Installation:
   In order to install the necessary dependencies, open the console and run the following:
-  ```npm i express``` ```npm install --save path```
+  ```npm i express``` ```npm install --save path``` ```npm install uuidv4```
   ### Usage: 
   Take and save notes 
 

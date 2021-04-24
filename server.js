@@ -29,7 +29,6 @@ app.post("/api/notes", function (req, res) {
     console.log(newNote);
     console.log(id);
     notes.push(newNote);
-
     rewriteNotes();
 
     return res.status(200).end();
