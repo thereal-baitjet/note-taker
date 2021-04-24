@@ -1,7 +1,9 @@
 var express = require("express");
 var path = require("path");
 var fs = require("fs");
-var notes = require("./db/db.json")
+var notes = require("./db/db.json");
+const { v4: uuidv4 } = require('uuid');
+
 
 var app = express();
 var PORT = process.env.PORT || 3000;
@@ -20,12 +22,12 @@ app.get("/api/notes", function (req, res) {
 });
 
 app.post("/api/notes", function (req, res) {
+    var id = uuidv4();
     var newNote = req.body;
+    newNote.id = id;
 
-    newNote["id"] = currentID +1;
-    currentID++;
     console.log(newNote);
-
+    console.log(id);
     notes.push(newNote);
 
     rewriteNotes();
@@ -76,6 +78,6 @@ function rewriteNotes() {
             return console.log(err);
         }
 
-        console.log("note taken");
+        console.log("note edited");
     });
 }
