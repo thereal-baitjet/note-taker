@@ -11,7 +11,15 @@
   In order to install the necessary dependencies, open the console and run the following:
   ```npm i express``` ```npm install --save path```
   ### Usage: 
-  Take and save notes
+  Take and save notes 
+
+  link to deployed app on heroku
+
+  https://dashboard.heroku.com/apps/stark-retreat-32872
+
+  link to repo
+
+  https://github.com/thereal-baitjet/note-taker
   
   ### License:
   This project is licensed under:
