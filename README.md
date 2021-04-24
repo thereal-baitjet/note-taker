@@ -18,7 +18,7 @@
   MIT
   ### Contributing: 
   contact me via email 
-  ``````
+  
   ### Questions:
   If you have any questions contact me on [GitHub](https://github.com/thereal-baitjet) or contact 
   Juan Santos at baitjet@gmail.com
