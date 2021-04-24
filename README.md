@@ -15,7 +15,7 @@
 
   link to deployed app on heroku
 
-  https://dashboard.heroku.com/apps/stark-retreat-32872
+  https://stark-retreat-32872.herokuapp.com/
 
   link to repo
 
