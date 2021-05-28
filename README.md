@@ -17,6 +17,8 @@
 
   https://stark-retreat-32872.herokuapp.com/
 
+  ![image of the note taker app](https://github.com/thereal-baitjet/note-taker/blob/main/2021-05-28-15-02-stark-retreat-32872.herokuapp.com.png "note taker app")
+
   link to repo
 
   https://github.com/thereal-baitjet/note-taker
