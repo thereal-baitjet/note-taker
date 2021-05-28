@@ -1,5 +1,7 @@
 # note-taker  ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
-  this is a simple notepad app
+  This is a simple notepad app that allow you to add and save notes.
+  You can leave reminders for yourself to remember later.
+
   ## Table of Contents:
   * [Installation](#installation)
   * [Usage](#usage)
